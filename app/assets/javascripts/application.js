@@ -13,3 +13,16 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+$( document ).ready(function() {
+        $(".button-collapse").sideNav();
+        $('.button-collapse').sideNav('show');
+        $('.button-collapse').sideNav('hide');
+    });
+// Initialize collapse button
+
+// Show sideNav
+ //
+ // Hide sideNav
+ //
+// Initialize collapsible (uncomment the line below if you use the dropdown variation)
+//$('.collapsible').collapsible();
