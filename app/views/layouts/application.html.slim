@@ -4,8 +4,9 @@ html
     title
       | Blog
     = csrf_meta_tags
+
     link[rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"]
-    script[src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"]
+    script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
     script[src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"]
     link[href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"]
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
@@ -14,4 +15,31 @@ html
     / .container
     nav.blue-grey.lighten-4.nav-extended
       .nav-wrapper
+        / a.button-collapse data-activates="side-navbar" href="#"
+        /   i.material-icons.black-text> menu
+        / ul#nav-mobile.right.hide-on-med-and-down
+        /   li: a[href="#profile"] Profile
+        /   li: a[href="#experience"] Experience
+        /   li: a[href="#technology"] Technology
+        /   li: a[href="#education"] Education
+        /   li: a[href="#connect"] Connect
+        ul#side-navbar.side-nav
+          li
+            user-view
+              .background
+                img src="images/sunrise_cali.jpg" /
+              a href="#!user"
+                img.circle src="images/headshot1.jpg" /
+              a href="#!name"
+                span.white-text.name Mark Kim
+              a href="#!email"
+                span.white-text.email mark.jn.kim@gmail.com
+          li
+            a[href="#profile"] Profile
+          li: a[href="#experience"] Experience
+          li: a[href="#technology"] Technology
+          li: a[href="#education"] Education
+          li: a[href="#connect"] Connect
+        a.button-collapse data-activates="slide-out" href="#"
+          i.material-icons menu
     = yield
