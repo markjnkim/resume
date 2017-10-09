@@ -15,8 +15,8 @@
 //= require_tree .
 $( document ).ready(function() {
         $(".button-collapse").sideNav();
-        $('.button-collapse').sideNav('show');
-        $('.button-collapse').sideNav('hide');
+        // $('.button-collapse').sideNav('show');
+        // $('.button-collapse').sideNav('hide');
     });
 // Initialize collapse button
 
