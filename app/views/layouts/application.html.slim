@@ -9,9 +9,9 @@ html
     script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
     script[src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"]
     link[href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"]
-    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
-    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
-  body
+    / = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+  /   = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  / body
     / .container
     nav.blue-grey.lighten-4.nav-extended
       .nav-wrapper
@@ -23,16 +23,16 @@ html
         /   li: a[href="#technology"] Technology
         /   li: a[href="#education"] Education
         /   li: a[href="#connect"] Connect
-        ul#side-navbar.side-nav
+        ul#nav-mobile.side-nav style="left: 0px;"
           li
-            user-view
+            .user-view
               .background
-                img src="images/sunrise_cali.jpg" /
-              a href="#!user"
-                img.circle src="images/headshot1.jpg" /
-              a href="#!name"
+                img src="images/sunrise_cali.jpg"
+              a href="#"
+                img.circle src="images/headshot1.jpg"
+              a href="#"
                 span.white-text.name Mark Kim
-              a href="#!email"
+              a href="#"
                 span.white-text.email mark.jn.kim@gmail.com
           li
             a[href="#profile"] Profile
@@ -40,6 +40,6 @@ html
           li: a[href="#technology"] Technology
           li: a[href="#education"] Education
           li: a[href="#connect"] Connect
-        a.button-collapse data-activates="slide-out" href="#"
+        a.button-collapse data-activates="nav-mobile" href="#"
           i.material-icons menu
     = yield
