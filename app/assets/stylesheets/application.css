@@ -43,6 +43,8 @@
  body {
    height:
    font-family:
+   margin-left: 0px;
+   margin-right: 0px;
  }
 
  a {
@@ -71,6 +73,19 @@
 
  .inline {
    display: inline;
+ }
+
+ .row{
+     margin-bottom: 0px !important;
+     margin-left: 0px !important;
+     margin-right: 0px !important;
+ }
+
+ .card-panel {
+     margin-bottom: 0px !important;
+     margin-top: 0px !important;
+     margin-left: 0px !important;
+     margin-right: 0px !important;
  }
 
  .left {
@@ -233,6 +248,9 @@
    width: 33.33%;
  }
 
+.font-100{
+  font-weight: 100;
+}
  .font-2 {
    font-size: 2em;
  }
