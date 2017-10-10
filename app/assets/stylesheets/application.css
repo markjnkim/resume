@@ -46,6 +46,7 @@
    margin-left: 0px;
    margin-right: 0px;
    padding-top: 800px;
+   background-color: black;
  }
 
  .navbar-fixed{
@@ -264,6 +265,18 @@
    font-size: 4em;
  }
 
+ .font-1{
+   font-size: 1em;
+ }
+
+ .font-2{
+    font-size: 2em;
+ }
+
+ .font-3{
+     font-size: 3em;
+ }
+
  .font-3-4{
    font-size: .75em;
  }
@@ -375,6 +388,14 @@
 
  .pad-2 {
    padding: 2em;
+ }
+
+ .pad-6 {
+   padding: 6em;
+ }
+
+ . {
+   padding: 10em;
  }
 
  .pad-5px {
