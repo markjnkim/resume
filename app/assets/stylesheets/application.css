@@ -45,6 +45,11 @@
    font-family:
    margin-left: 0px;
    margin-right: 0px;
+   padding-top: 800px;
+ }
+
+ .navbar-fixed{
+     z-index: 1000;
  }
 
  a {
@@ -438,6 +443,10 @@
    padding-top: 6em;
  }
 
+ .pad-t-10 {
+   padding-top: 10em;
+ }
+
  .pad-l-6 {
    padding-left: 6em;
  }
@@ -448,6 +457,8 @@
  .pad-r-4 {
    padding-right: 4em;
  }
+
+
  .pipe-separate {
    padding-left: 1em;
    padding-right: 1em;

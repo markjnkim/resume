@@ -2,9 +2,8 @@ doctype html
 html
   head
     title
-      | Blog
+      | Mark Kim
     = csrf_meta_tags
-
     link[rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"]
     script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
     script[src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"]
@@ -13,10 +12,8 @@ html
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   body
     .navbar-fixed
-      nav.blue-grey.lighten-4.nav-extended
+      nav.blue-grey.lighten-4
         .nav-wrapper
-          / a.button-collapse data-activates="side-navbar" href="#"
-          /   i.material-icons.black-text> menu
           ul#nav-mobile.right.hide-on-med-and-down
             li: a[href="#profile"] Profile
             li: a[href="#experience"] Experience
@@ -24,23 +21,36 @@ html
             li: a[href="#education"] Education
             li: a[href="#connect"] Connect
           ul#slide-out.side-nav
+            li
+              .user-view
+                .background
+                  = image_tag("sunrise_cali.jpg", :alt => "sunrise", size: '250')
+                / a href="#!user"
+                /   img.circle src="images/headshot1.jpg" /
+                a href="#!ßname"
+                  span.white-text.name Mark Kim
+                a href="#!email"
+                  span.white-text.email mark.jn.kim@gmail.com
             / li
             /   .user-view
             /     .background
-            /       img src="images/sunrise_cali.jpg" /
-            /     a href="#!user"
-            /       img.circle src="images/headshot1.jpg" /
-            /     a href="#!name"
-            /       span.white-text.name Mark Kim
-            /     a href="#!email"
-            /       span.white-text.email mark.jn.kim@gmail.com
-            li.user-view
-              .background.blue-grey.darken-2
-            li: a[href="#profile"] Profile
-            li: a[href="#experience"] Experience
-            li: a[href="#technology"] Technology
-            li: a[href="#education"] Education
-            li: a[href="#connect"] Connect
+                  / = image_tag("sunrise_cali.jpg", :alt => "sunrise", size: '500')
+            li
+              a href="#profile"
+                i.material-icons person
+                | Profile
+            li: a href="#experience"
+                i.material-icons history
+                | Experience
+            li: a[href="#technology"]
+                i.material-icons layers
+                | Technology
+            li: a[href="#education"]
+                i.material-icons school
+                | Education
+            li: a[href="#connect"]
+                i.material-icons share
+                | Connect
           a.button-collapse data-activates="slide-out" href="#"
             i.material-icons menu
     = yield
