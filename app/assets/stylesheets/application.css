@@ -41,12 +41,11 @@
  }*/
  /**/
  body {
-   height:
-   font-family:
-   margin-left: 0px;
+   margin-left: 100em;
    margin-right: 0px;
    padding-top: 800px;
    background-color: black;
+   padding-left: 100em;
  }
 
  .navbar-fixed{
@@ -92,7 +91,13 @@
      margin-top: 0px !important;
      margin-left: 0px !important;
      margin-right: 0px !important;
+     /*padding-left: 22em !important;
+     min-width: 60em !important;*/
  }
+
+ /*.side-nav {
+     transform: translateX(0%) !important;
+ }*/
 
  .left {
    float: left;

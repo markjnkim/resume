@@ -10,6 +10,7 @@ html
     link[href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"]
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+
   body
     .navbar-fixed
       nav.blue-grey.lighten-4
@@ -21,7 +22,7 @@ html
             li: a[href="#technology"] Technology
             li: a[href="#education"] Education
             li: a[href="#connect"] Connect
-          ul#slide-out.side-nav
+          ul#slide-out.side-nav.show
             li
               .user-view
                 .background
@@ -50,5 +51,5 @@ html
                 i.material-icons share
                 | Connect
           a.button-collapse data-activates="slide-out" href="#"
-            i.material-icons menu
+            i.material-icons.show-on-large menu
     = yield
