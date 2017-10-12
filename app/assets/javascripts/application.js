@@ -20,6 +20,7 @@ $( document ).ready(function() {
           closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
           }
         );
+
         // $('.button-collapse').sideNav('show');
         // $('.button-collapse').sideNav('hide');
     });
