@@ -3510,3 +3510,10 @@ Processing by ProfileController#index as HTML
 Completed 200 OK in 104ms (Views: 102.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-11 21:57:22 -0700
+Processing by ProfileController#index as HTML
+  Rendering profile/index.html.slim within layouts/application
+  Rendered profile/index.html.slim within layouts/application (1307.5ms)
+Completed 200 OK in 3472ms (Views: 1974.9ms)
+
+
