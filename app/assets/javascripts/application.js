@@ -14,7 +14,13 @@
 
 //= require_tree .
 $( document ).ready(function() {
-        $(".button-collapse").sideNav();
+        $(".button-collapse").sideNav({
+          menuWidth: 230, // Default is 240
+          edge: 'left', // Choose the horizontal origin
+          closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          }
+        );
+
         // $('.button-collapse').sideNav('show');
         // $('.button-collapse').sideNav('hide');
     });

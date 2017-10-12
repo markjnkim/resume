@@ -10,18 +10,20 @@ html
     link[href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"]
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+
   body
     .navbar-fixed
       nav.blue-grey.lighten-4
         .nav-wrapper
-          ul#nav-mobile.right.hide-on-med-and-down
-            li: a[href="#profile"] Profile
-            li: a[href="#projects"] Projects
-            li: a[href="#experience"] Experience
-            li: a[href="#technology"] Technology
-            li: a[href="#education"] Education
-            li: a[href="#connect"] Connect
-          ul#slide-out.side-nav
+
+          / ul#nav-mobile.right.hide-on-med-and-down
+          /   li: a[href="#profile"] Profile
+          /   li: a[href="#projects"] Projects
+          /   li: a[href="#experience"] Experience
+          /   li: a[href="#technology"] Technology
+          /   li: a[href="#education"] Education
+          /   li: a[href="#connect"] Connect
+          ul#slide-out.side-nav.show
             li
               .user-view
                 .background
@@ -49,6 +51,6 @@ html
             li: a[href="#connect"]
                 i.material-icons share
                 | Connect
-          a.button-collapse data-activates="slide-out" href="#"
+          a.button-collapse.show-on-large data-activates="slide-out" href="#"
             i.material-icons menu
     = yield
