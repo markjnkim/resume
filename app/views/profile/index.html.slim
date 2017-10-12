@@ -1,6 +1,6 @@
 .row
   .col.s12
-    .card-panel.cyan.darken-2.white-text.center-align.pad-6
+    .card-panel.blue-grey.lighten-4.center-align.pad-12
       h2.font-100 Mark<b>Kim</b>
       / p.flow-text.black-text
       /   | Full Stack Developer
@@ -21,19 +21,19 @@
           br
           | Entrepreneur
   .col.s12#projects
-    .card-panel.blue-grey.lighten-2.black-text.pad-6
+    .card-panel.grey.pad-6
       h1.flow-text.left-align.font-2 <b>P r o j e c t s</b>
   .col.s12
-    .card-panel.blue-grey.darken-4
+    .card-panel.grey.darken-3.pad-t-6.pad-b-6
       .row
         .col.s12.m6.l4
-          a.hoverable href="https://github.com/markjnkim/swappaws"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light href="https://github.com/markjnkim/swappaws"
             = image_tag("swap_paws_logo.png", :alt => "Swap Paws", size: '300x100')
         .col.s12.m6.l4
-          a.hoverable href="https://github.com/markjnkim/supperclub"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light href="https://github.com/markjnkim/supperclub"
             = image_tag("supperclub.gif", :alt => "Supper Club", size: '300x100')
         .col.s12.m6.l4
-          a.hoverable href="https://github.com/markjnkim/ema_overflow"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light href="https://github.com/markjnkim/ema_overflow"
             = image_tag("overflow.png", :alt => "Ema Overflow", size: '200x100')
 
       / p.flow-text.left-align <b>Swap Paws |</b>
@@ -43,19 +43,61 @@
       / p.flow-text.left-align.font-1
       /   | > Created a Ruby on Rails application that relied on the Materialize CSS Framework
 
-
   .col.s12#experience
     .card-panel.cyan.darken-4.white-text.pad-6
       h1.flow-text.left-align.font-2 <b> E x p e r i e n c e </b>
   .col.s12
-    .card-panel.cyan.darken-2.black-text
-      p.flow-text.align-text.center Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    .card-panel.green.lighten-5.black-text
+      / .col.s12
+      .row
+        .col.s12.m8.l8
+          span.right.pad-t-30px 2017
+          h1.card-title.flow-text <b>Dev Boot Camp</b> | Full stack Developer
+          ul
+            li.flow-text.left-align.pad-l-1 > Immersive full stack web engineering program
+            li.flow-text.left-align.pad-l-1 > Over 700+ hours of intense coding in Javascript, React, Ruby on Rails, Web Development, Agile Methodology, Engineering Empathy
+        .col.s12.m4.l4
+          a.hoverable.pad-t-1.center-align.waves-light.waves-block.waves-effect href="https://devbootcamp.com/"
+            = image_tag("dbc_logo.png", :alt => "Dev Boot Camp", size: '200x100')
+      .divider
+      .row.pad-t-1
+        .col.s12.m8.l8
+          span.right.pad-t-30px 2002-2016
+          h1.card-title.flow-text <b>FuzeBox</b> | Founder
+          ul
+            li.flow-text.left-align.pad-l-1 > Created a company that grew to over 5 locations and 60 employees
+            li.flow-text.left-align.pad-l-1 > Charged with business development and strategy, technology, and operations
+            li.flow-text.left-align.pad-l-1 > Designed and constructed over 5 new concept stores that increased gross sales by over $5 million
+        .col.s12.m4.l4.center-align
+          / a.hoverable.pad-t-1.center-align.waves-light.waves-block.waves-effect href="https://devbootcamp.com/"
+          = image_tag("fuzebox_logo.jpg", :alt => "FuzeBox", size: '200x200')
+      / .col.s12
+        / .card-panel.cyan.darken-2.black-text
+
   .col.s12#technology
     .card-panel.blue-grey.darken-1.white-text.pad-6
       h1.flow-text.left-align.font-2 <b> T e c h n o l o g y </b>
   .col.s12
     .card-panel.blue-grey.lighten-2.black-text
-      p.flow-text.align-text.center Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      .row
+        .col.s12
+          h1.flow-text.left-align
+            | <b>Languages</b>
+      .row
+        .col.s5.m3.l2
+          = image_tag("Ruby.png", :alt => "Ruby", size: '120x158', class: 'z-depth-5')
+          / | &nbsp&nbsp&nbsp&nbsp&nbsp
+        .col.s5.m3.l2
+          = image_tag("es6.png", :alt => "ES6", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          = image_tag("javascript.png", :alt => "Javascript", size: '120x158', class: 'z-depth-5')
+          / | &nbsp&nbsp&nbsp&nbsp&nbsp
+        .col.s5.m3.l2
+          = image_tag("html.png", :alt => "HTML5", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          = image_tag("css.png", :alt => "CSS3", size: '120x158', class: 'z-depth-5')
+
+
   .col.s12#education
     .card-panel.teal.lighten-2.black-text.pad-6
       h1.flow-text.left-align.font-2 <b> E d u c a t i o n </b>
