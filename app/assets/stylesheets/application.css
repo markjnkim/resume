@@ -30,22 +30,19 @@
    text-decoration: none;
  }
 
- /* element styling */
- /*html {
-   height: 100%;
-   /*background-color: #A7D2CB !important;*/
-   background: linear-gradient(to right, #A7D2CB, #47ccb6);
-   /*background: url(../images/diamond-bg.jpg);*/
-  /* background-attachment: fixed;
-   line-height: 1.4;
- }*/
- /**/
- body {
+body {
+  background-color: black;
+   padding-left: 220px;
    margin-left: 0px;
    margin-right: 0px;
    padding-top: 0px;
    background-color: black;
-   padding-left: 0em;
+ }
+
+ @media only screen and (max-width : 992px) {
+   body {
+      padding-left: 0;
+    }
  }
 
  .navbar-fixed{
@@ -66,6 +63,23 @@
    color: #465C8B;
  }
 
+ .parallax{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom:0;
+   z-index: 0;
+ }
+
+ .parallax img {
+   display: inherit !important;
+ }
+ .parallax-container {
+   position: relative;
+   overflow: hidden;
+   height: 500px;
+ }
 
  /* positioning */
  .block {
@@ -80,21 +94,34 @@
    display: inline;
  }
 
+ .section {
+   margin-top: 0px !important;
+   margin-bottom: 0px !important;
+   margin-left: 0px !important;
+   margin-right: 0px !important;
+ }
+
  .row{
+     margin-top: 0px !important;
      margin-bottom: 0px !important;
-     margin-left: 0px !important;
-     margin-right: 0px !important;
+     margin-left: -10px !important;
+     margin-right: -10px !important;
  }
 
  .card-panel {
      margin-bottom: 0px !important;
      margin-top: 0px !important;
-     margin-left: 0px !important;
-     margin-right: 0px !important;
+     /*padding-left: 10px !important;
+     margin-right: 0px !important;*/
+     padding-left: 40px;
      /*padding-left: 22em !important;
      min-width: 60em !important;*/
  }
 
+ .parallax-container {
+       height: 50em;
+       /*position: static;*/
+     }
  /*.side-nav {
      transform: translateX(0%) !important;
  }*/
