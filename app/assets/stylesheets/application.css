@@ -286,6 +286,11 @@ body {
    width: 33.33%;
  }
 
+ .divider {
+   margin-left: -45px;
+   margin-right: -25px;
+ }
+
 .font-100{
   font-weight: 100;
 }
