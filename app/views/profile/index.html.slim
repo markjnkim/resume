@@ -36,13 +36,13 @@
   .col.s12
     .card-panel.grey.darken-3.pad-t-6.pad-b-6
       .row
-        .col.s12.m7.l4
+        .col.s12.m6.l4
           a.hoverable.center-align.waves-effect.waves-block.waves-light href="https://github.com/markjnkim/swappaws"
             = image_tag("swap_paws_logo.png", alt: "Swap Paws", size: '300x100')
-        .col.s12.m7.l4
+        .col.s12.m6.l4
           a.hoverable.center-align.waves-effect.waves-block.waves-light href="https://github.com/markjnkim/supperclub"
             = image_tag("supperclub.gif", alt: "Supper Club", size: '300x100')
-        .col.s12.m4.l4
+        .col.s12.m6.l4
           a.hoverable.center-align.waves-effect.waves-block.waves-light href="https://github.com/markjnkim/ema_overflow"
             = image_tag("overflow.png", alt: "Ema Overflow", size: '200x100')
     / p.flow-text.left-align <b>Swap Paws |</b>
@@ -68,7 +68,7 @@
           h1.card-title.flow-text <b>Dev Boot Camp</b> | Full stack Developer
           ul
             li.flow-text.left-align.pad-l-1 > Immersive full stack web engineering program
-            li.flow-text.left-align.pad-l-1 > Over 700+ hours of intense coding in Javascript, React, Ruby on Rails, Web Development, Agile Methodology, Engineering Empathy
+            li.flow-text.left-align.pad-l-1 > Over 700+ hours of intense coding in pair and group projects using Javascript,  Ruby on Rails, JQuery, React, Agile Software Development, Git version control, and Engineering Empathy
         .col.s12.m4.l4
           a.hoverable.pad-t-1.center-align.waves-light.waves-block.waves-effect href="https://devbootcamp.com/"
             = image_tag("dbc_logo.png", alt: "Dev Boot Camp", size: '200x100')
@@ -92,125 +92,175 @@
     .card-panel.blue-grey.darken-1.white-text.pad-6
       h1.flow-text.left-align.font-2 <b> T e c h n o l o g y </b>
   .col.s12
-    .card-panel.blue-grey.lighten-2.black-text
+    .card-panel.blue-grey.lighten-3.black-text
       .row
         .col.s12
           h1.flow-text.left-align
             | <b>Languages</b>
       .row
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-b-2.pad-t-2 href="https://www.ruby-lang.org/en/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-b-1.pad-t-1 href="https://www.ruby-lang.org/en/"
             = image_tag("ruby.png", alt: "Ruby", size: '120x158', class: 'z-depth-5')
           / | &nbsp&nbsp&nbsp&nbsp&nbsp
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-b-2.pad-t-2 href="https://www.javascript.com/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-b-1.pad-t-1 href="https://www.javascript.com/"
             = image_tag("es6.png", alt: "ES6", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-b-2.pad-t-2 href="https://www.javascript.com/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-b-1.pad-t-1 href="https://www.javascript.com/"
             = image_tag("javascript.png", alt: "Javascript", size: '120x158', class: 'z-depth-5')
           / | &nbsp&nbsp&nbsp&nbsp&nbsp
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://www.w3.org/Style/CSS/Overview.en.html"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://www.w3.org/Style/CSS/Overview.en.html"
             = image_tag("html.png", alt: "HTML5", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
             = image_tag("css.png", alt: "CSS3", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://www.gnu.org/software/bash/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://www.gnu.org/software/bash/"
             = image_tag("bash.png", alt: "Bash", size: '120x158', class: 'z-depth-5')
-      .divider
+      .divider.mar-t-2.black
       .row
         .col.s12
           h1.flow-text.left-align
             | <b>Libraries</b>
       .row
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://reactjs.org/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://reactjs.org/"
             = image_tag("react.png", alt: "React", size: '120x158', class: 'z-depth-5')
+
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="http://rubyonrails.org/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://jquery.com/"
+            = image_tag("jquery.png", alt: "jQuery", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://nodejs.org/en/"
+            = image_tag("node.png", alt: "Node", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://yarnpkg.com/en/"
+            = image_tag("yarn.png", alt: "Yarn", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://webpack.js.org/"
+            = image_tag("webpack.png", alt: "Webpack", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://bourbon.io/"
+            = image_tag("bourbon.png", alt: "Bourbon", size: '120x158', class: 'z-depth-5')
+      .divider.mar-t-2.black
+      .row
+        .col.s12
+          h1.flow-text.left-align
+            | <b>Frameworks</b>
+      .row
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://rubyonrails.org/"
             = image_tag("rails.png", alt: "Rails", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://jquery.com/"
-            = image_tag("jquery.png", alt: "jQuery", size: '120x158', class: 'z-depth-5')
-      .divider
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://www.sinatrarb.com/"
+            = image_tag("sinatra.png", alt: "Sinatra", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://materializecss.com/"
+            = image_tag("materialize.png", alt: "Materialize", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://getbootstrap.com/"
+            = image_tag("bootstrap.png", alt: "Bootstrap", size: '120x158', class: 'z-depth-5')
+      .divider.mar-t-2.black
       .row
         .col.s12
           h1.flow-text.left-align
             | <b>Preprocessors</b>
       .row
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="http://sass-lang.com/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://sass-lang.com/"
             = image_tag("sass.png", alt: "Sass", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="http://coffeescript.org/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://coffeescript.org/"
             = image_tag("coffee.png", alt: "Coffee Script", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://babeljs.io/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://babeljs.io/"
             = image_tag("babel.png", alt: "Babel", size: '120x158', class: 'z-depth-5')
+
+      .divider.mar-t-2.black
+      .row
+        .col.s12
+          h1.flow-text.left-align
+            | <b>Data</b>
+      .row
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://en.wikipedia.org/wiki/SQL"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://en.wikipedia.org/wiki/SQL"
             = image_tag("sql.png", alt: "SQL", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://www.postgresql.org/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://www.postgresql.org/"
             = image_tag("postgresql.png", alt: "postgresql", size: '120x158', class: 'z-depth-5')
+      .divider.mar-t-2.black
+      .row
+        .col.s12
+          h1.flow-text.left-align
+            | <b>Project Management</b>
+      .row
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="http://bourbon.io/"
-            = image_tag("bourbon.png", alt: "Bourbon", size: '120x158', class: 'z-depth-5')
-        .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://github.com/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://github.com/"
             = image_tag("github.png", alt: "Github", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://git-scm.com/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://git-scm.com/"
             = image_tag("git.png", alt: "Git", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://en.wikipedia.org/wiki/Agile_software_development"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://en.wikipedia.org/wiki/Agile_software_development"
             = image_tag("agile.png", alt: "Agile Development", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://travis-ci.org/getting_started"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://en.wikipedia.org/wiki/Scrum_(software_development)"
+            = image_tag("scrum.png", alt: "Scrum", size: '120x158', class: 'z-depth-5')
+      .divider.mar-t-2.black
+      .row
+        .col.s12
+          h1.flow-text.left-align
+            | <b>Test Suites</b>
+      .row
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://travis-ci.org/getting_started"
             = image_tag("travis.png", alt: "Travis CI", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://balsamiq.com/"
-            = image_tag("balsamiq.png", alt: "Balsamiq", size: '120x158', class: 'z-depth-5')
-        .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="http://rspec.info/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://rspec.info/"
             = image_tag("rspec.png", alt: "RSpec", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://www.getpostman.com/"
-            = image_tag("postman.png", alt: "Postman", size: '120x158', class: 'z-depth-5')
-        .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://jasmine.github.io/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://jasmine.github.io/"
             = image_tag("jasmine.png", alt: "Jasmine", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="http://materializecss.com/"
-            = image_tag("materialize.png", alt: "Materialize", size: '120x158', class: 'z-depth-5')
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://github.com/teamcapybara/capybaracapyb"
+            = image_tag("capybara.png", alt: "Capybara", size: '120x158', class: 'z-depth-5')
+      .divider.mar-t-2.black
+      .row
+        .col.s12
+          h1.flow-text.left-align
+            | <b>Tools</b>
+      .row
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="http://getbootstrap.com/"
-            = image_tag("bootstrap.png", alt: "Bootstrap", size: '120x158', class: 'z-depth-5')
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://material.io/guidelines/#introduction-principles"
+            = image_tag("postman.png", alt: "Postman", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://atom.io/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://www.getpostman.com/"
+            = image_tag("materialdesign.png", alt: "Material Design", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://balsamiq.com/"
+            = image_tag("balsamiq.png", alt: "Balsamiq", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://atom.io/"
             = image_tag("atom.png", alt: "Atom", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://www.sublimetext.com/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://www.sublimetext.com/"
             = image_tag("sublime.png", alt: "Sublime Text Editor", size: '120x158', class: 'z-depth-5')
+
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://nodejs.org/en/"
-            = image_tag("node.png", alt: "Node", size: '120x158', class: 'z-depth-5')
-        .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other"
             = image_tag("photoshop.png", alt: "Photoshop", size: '120x158', class: 'z-depth-5')
+
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://yarnpkg.com/en/"
-            = image_tag("yarn.png", alt: "Yarn", size: '120x158', class: 'z-depth-5')
-        .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://webpack.js.org/"
-            = image_tag("webpack.png", alt: "Webpack", size: '120x158', class: 'z-depth-5')
-        .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://aws.amazon.com/s3/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://aws.amazon.com/s3/"
             = image_tag("aws.png", alt: "AWS", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-2.pad-b-2 href="https://heroku.com/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://heroku.com/"
             = image_tag("heroku.png", alt: "Heroku", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://slim-lang.com/"
+            = image_tag("slim.png", alt: "Slim", size: '120x158', class: 'z-depth-5')
+
   .col.s12#education
     .card-panel.teal.darken-2.white-text.pad-6
       h1.flow-text.left-align.font-2 <b> E d u c a t i o n </b>

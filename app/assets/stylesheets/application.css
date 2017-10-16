@@ -55,7 +55,7 @@ body {
  }
 
    a:hover {
-     color: #b2dfdb;
+     color: #00cccc;
      text-decoration: none;
    }
 
@@ -284,6 +284,11 @@ body {
 
  .col-3 {
    width: 33.33%;
+ }
+
+ .divider {
+   margin-left: -45px;
+   margin-right: -25px;
  }
 
 .font-100{

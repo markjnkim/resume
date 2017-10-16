@@ -16,39 +16,31 @@ html
     .navbar-fixed
       nav.blue-grey.lighten-4
         .nav-wrapper
-
-          / ul#nav-mobile.right.hide-on-med-and-down
-          /   li: a[href="#profile"] Profile
-          /   li: a[href="#projects"] Projects
-          /   li: a[href="#experience"] Experience
-          /   li: a[href="#technology"] Technology
-          /   li: a[href="#education"] Education
-          /   li: a[href="#connect"] Connect
-
           ul#slide-out.side-nav.fixed
             li.user-view
                 .background
-                  = image_tag("sunrise_cali_horz.jpg", :alt => "sunrise", size: '245x120')
-                a href="#!name"
-                  span.white-text.name Mark Kim
-                a href="#!email"
-                  span.white-text.email mark.jn.kim@gmail.com
-            li: a href="#profile"
+                  = image_tag("sunrise_cali_horz.jpg", alt: "Sunrise", size: '245x120')
+                a.waves-light.waves-effect href="#connect"
+                  span.white-text.name.pad-l-1
+                    | Mark Kim
+                a.waves-light.waves-effect href="#connect"
+                  span.white-text.email.pad-l-1 mark.jn.kim@gmail.com
+            li: a.waves-light.waves-effect href="#profile"
                 i.material-icons person
                 | Profile
-            li: a href="#projects"
+            li: a.waves-light.waves-effect href="#projects"
                 i.material-icons assignment
                 | Projects
-            li: a href="#experience"
+            li: a.waves-light.waves-effect href="#experience"
                 i.material-icons history
                 | Experience
-            li: a[href="#technology"]
+            li: a.waves-light.waves-effect[href="#technology"]
                 i.material-icons important_devices
                 | Technology
-            li: a[href="#education"]
+            li: a.waves-light.waves-effect[href="#education"]
                 i.material-icons school
                 | Education
-            li: a[href="#connect"]
+            li: a.waves-light.waves-effect[href="#connect"]
                 i.material-icons share
                 | Connect
           a.button-collapse data-activates="slide-out" href="#"
