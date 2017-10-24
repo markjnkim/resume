@@ -5,7 +5,7 @@
 .row
   .col.s12
     .card-panel.blue-grey.lighten-4.center-align.pad-12
-      h2.font-100 Mark<b>Kim</b>
+      h2.font-100 Mark<b> Kim</b>
       / p.flow-text.black-text
       /   | Full Stack Developer
       /   br
@@ -86,7 +86,7 @@
           = image_tag("fuzebox_logo.jpg", alt: "FuzeBox", size: '200x200', class: "pad-t-2")
       / .col.s12
         / .card-panel.cyan.darken-2.black-text
-
+/ = render 'technology'
 .row
   .col.s12#technology
     .card-panel.blue-grey.darken-1.white-text.pad-6
@@ -116,8 +116,9 @@
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
             = image_tag("css.png", alt: "CSS3", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://www.gnu.org/software/bash/"
-            = image_tag("bash.png", alt: "Bash", size: '120x158', class: 'z-depth-5')
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://sass-lang.com/"
+            = image_tag("sass.png", alt: "Sass", size: '120x158', class: 'z-depth-5')
+
       .divider.mar-t-2.black
       .row
         .col.s12
@@ -127,19 +128,12 @@
         .col.s5.m3.l2
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://reactjs.org/"
             = image_tag("react.png", alt: "React", size: '120x158', class: 'z-depth-5')
-
         .col.s5.m3.l2
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://jquery.com/"
             = image_tag("jquery.png", alt: "jQuery", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://nodejs.org/en/"
-            = image_tag("node.png", alt: "Node", size: '120x158', class: 'z-depth-5')
-        .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://yarnpkg.com/en/"
-            = image_tag("yarn.png", alt: "Yarn", size: '120x158', class: 'z-depth-5')
-        .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://webpack.js.org/"
-            = image_tag("webpack.png", alt: "Webpack", size: '120x158', class: 'z-depth-5')
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://www.sinatrarb.com/"
+            = image_tag("sinatra.png", alt: "Sinatra", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://bourbon.io/"
             = image_tag("bourbon.png", alt: "Bourbon", size: '120x158', class: 'z-depth-5')
@@ -153,8 +147,8 @@
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://rubyonrails.org/"
             = image_tag("rails.png", alt: "Rails", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://www.sinatrarb.com/"
-            = image_tag("sinatra.png", alt: "Sinatra", size: '120x158', class: 'z-depth-5')
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://nodejs.org/en/"
+            = image_tag("node.png", alt: "Node", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://materializecss.com/"
             = image_tag("materialize.png", alt: "Materialize", size: '120x158', class: 'z-depth-5')
@@ -167,9 +161,6 @@
           h1.flow-text.left-align
             | <b>Preprocessors</b>
       .row
-        .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://sass-lang.com/"
-            = image_tag("sass.png", alt: "Sass", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://coffeescript.org/"
             = image_tag("coffee.png", alt: "Coffee Script", size: '120x158', class: 'z-depth-5')
@@ -223,7 +214,7 @@
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://jasmine.github.io/"
             = image_tag("jasmine.png", alt: "Jasmine", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://github.com/teamcapybara/capybaracapyb"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://teamcapybara.github.io/capybara/"
             = image_tag("capybara.png", alt: "Capybara", size: '120x158', class: 'z-depth-5')
       .divider.mar-t-2.black
       .row
@@ -232,10 +223,10 @@
             | <b>Tools</b>
       .row
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://material.io/guidelines/#introduction-principles"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://www.getpostman.com/"
             = image_tag("postman.png", alt: "Postman", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
-          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://www.getpostman.com/"
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://material.io/guidelines/#introduction-principles"
             = image_tag("materialdesign.png", alt: "Material Design", size: '120x158', class: 'z-depth-5')
         .col.s5.m3.l2
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://balsamiq.com/"
@@ -246,11 +237,9 @@
         .col.s5.m3.l2
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://www.sublimetext.com/"
             = image_tag("sublime.png", alt: "Sublime Text Editor", size: '120x158', class: 'z-depth-5')
-
         .col.s5.m3.l2
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other"
             = image_tag("photoshop.png", alt: "Photoshop", size: '120x158', class: 'z-depth-5')
-
         .col.s5.m3.l2
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://aws.amazon.com/s3/"
             = image_tag("aws.png", alt: "AWS", size: '120x158', class: 'z-depth-5')
@@ -260,13 +249,49 @@
         .col.s5.m3.l2
           a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="http://slim-lang.com/"
             = image_tag("slim.png", alt: "Slim", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://yarnpkg.com/en/"
+            = image_tag("yarn.png", alt: "Yarn", size: '120x158', class: 'z-depth-5')
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://devbootcamp.desk.com/customer/portal/articles/1989440-what-is-engineering-empathy-"
+            = image_tag("empathy.png", alt: "Engineering Empathy", size: '120x158', class: 'z-depth-5')
 
+        .col.s5.m3.l2
+          a.hoverable.center-align.waves-effect.waves-block.waves-light.pad-t-1.pad-b-1 href="https://www.gnu.org/software/bash/"
+            = image_tag("bash.png", alt: "Bash", size: '120x158', class: 'z-depth-5')
+.row
   .col.s12#education
     .card-panel.teal.darken-2.white-text.pad-6
       h1.flow-text.left-align.font-2 <b> E d u c a t i o n </b>
+
+.row
   .col.s12
-    .card-panel.teal.lighten-2
-      p.flow-text.align-text.center <b> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </b>
+    .card-panel.green.lighten-5.black-text
+      .row
+        .col.s12.m8.l8
+          span.right.pad-t-30px 2017
+          h1.card-title.flow-text <b>Dev Boot Camp</b> | Full stack Developer
+          ul
+            li.flow-text.left-align.pad-l-1 > Immersive full stack web engineering program
+            li.flow-text.left-align.pad-l-1 > Over 700+ hours of intense coding in pair and group projects using Javascript,  Ruby on Rails, JQuery, React, Agile Software Development, Git version control, and Engineering Empathy
+        .col.s12.m4.l4
+          a.hoverable.pad-t-1.center-align.waves-light.waves-block.waves-effect href="https://devbootcamp.com/"
+            = image_tag("dbc_logo.png", alt: "Dev Boot Camp", size: '200x100')
+      .divider
+      .row.pad-t-1
+        .col.s12.m8.l8
+          span.right.pad-t-30px 1998
+          h1.card-title.flow-text <b>University of California, Los Angeles</b>
+          ul
+            li.flow-text.left-align.pad-l-1 > Bachelor of Science in Electrical Engineering
+            li.flow-text.left-align.pad-l-1 > Member of Eta Kappa Nu - Electrical Engineering Honors Society
+            li.flow-text.left-align.pad-l-1 > Studied semiconductor fabrication, signal theory, and circuit design
+        .col.s12.m4.l4.center-align
+          a.hoverable.pad-t-1.center-align.waves-light.waves-block.waves-effect href="http://www.ucla.edu/"
+            = image_tag("ucla.png", alt: "UCLA", size: '250x100')
+        .col.s12.m4.l4.center-align
+          a.hoverable.pad-t-1.center-align.waves-light.waves-block.waves-effect href="https://www.ieee.org/education_careers/education/ieee_hkn/ieee-hkn_index.html"
+            = image_tag("eta.png", alt: "UCLA", size: '100x100')
 
   .row
     .col.s12#connect
