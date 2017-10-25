@@ -8350,3 +8350,38 @@ Processing by ProfileController#index as HTML
 Completed 200 OK in 2231ms (Views: 2221.4ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-25 14:11:30 -0700
+Processing by ProfileController#index as HTML
+  Rendering profile/index.html.slim within layouts/application
+  Rendered profile/index.html.slim within layouts/application (1528.4ms)
+Completed 200 OK in 4480ms (Views: 4364.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-25 14:14:22 -0700
+Processing by ProfileController#index as HTML
+  Rendering profile/index.html.slim within layouts/application
+  Rendered profile/index.html.slim within layouts/application (4775.6ms)
+Completed 200 OK in 9031ms (Views: 9024.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-25 14:15:10 -0700
+Processing by ProfileController#index as HTML
+  Rendering profile/index.html.slim within layouts/application
+  Rendered profile/index.html.slim within layouts/application (2378.3ms)
+Completed 200 OK in 3952ms (Views: 3947.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-25 14:16:48 -0700
+Processing by ProfileController#index as HTML
+  Rendering profile/index.html.slim within layouts/application
+  Rendered profile/index.html.slim within layouts/application (1012.5ms)
+Completed 200 OK in 1355ms (Views: 1299.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-25 14:17:33 -0700
+Processing by ProfileController#index as HTML
+  Rendering profile/index.html.slim within layouts/application
+  Rendered profile/index.html.slim within layouts/application (1086.5ms)
+Completed 200 OK in 1299ms (Views: 1269.7ms)
+
+
