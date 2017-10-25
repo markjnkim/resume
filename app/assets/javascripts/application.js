@@ -15,25 +15,28 @@
 //= require_tree .
 $( document ).ready(function() {
 
-  $(".parallax").parallax();
-
   $(".button-collapse").sideNav({
     menuWidth: 230, // Default is 240
     edge: 'left', // Choose the horizontal origin
     closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-    }
-    
-  );
+  })
 
-
-        // $('.button-collapse').sideNav('show');
-        // $('.button-collapse').sideNav('hide');
-    });
-// Initialize collapse button
-
-// Show sideNav
- //
- // Hide sideNav
- //
-// Initialize collapsible (uncomment the line below if you use the dropdown variation)
-//$('.collapsible').collapsible();
+  $('.masterTooltip').hover(function() {
+    // Hover over code
+    var title = $(this).attr('title');
+    $(this).data('tipText', title).removeAttr('title');
+    $('<p class="tooltip"></p>')
+    .text(title)
+    .appendTo('body')
+    .fadeIn('slow');
+  }, function() {
+    // Hover out code
+    $(this).attr('title', $(this).data('tipText'));
+    $('.tooltip').remove();
+  }).mousemove(function(e) {
+    var mousex = e.pageX - 100; //Get X coordinates
+    var mousey = e.pageY - 100; //Get Y coordinates
+    $('.tooltip')
+    .css({ top:mousey, left: mousex })
+  });
+});
