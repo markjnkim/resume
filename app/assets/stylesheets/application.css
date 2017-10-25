@@ -31,19 +31,36 @@
  }
 
 body {
-  background-color: black;
-   padding-left: 220px;
-   margin-left: 0px;
-   margin-right: 0px;
-   padding-top: 0px;
+   padding: 0px !important;
+   margin: 0px !important;
    background-color: black;
+   overflow-x: hidden;
+   padding-left: 300px;
  }
 
- @media only screen and (max-width : 992px) {
-   body {
-      padding-left: 0;
-    }
+ .no-padding-right {
+   padding: 0;
  }
+
+.no-margin-right {
+    margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  padding-left: 230px;
+}
+
+@media only screen and (max-width : 992px) {
+ body {
+    padding-left: 100px;
+
+  }
+  .container {
+    padding-left: 0px;
+  }
+}
 
  .navbar-fixed{
      z-index: 1000;
@@ -101,16 +118,24 @@ body {
    margin-right: 0px !important;
  }
 
- .row{
+ .row {
      margin-top: 0px !important;
      margin-bottom: 0px !important;
      margin-left: -10px !important;
      margin-right: -10px !important;
+     padding-left: 0px !important;
+     padding-right: 0px !important;
+     /*width: 100% !important;*/
+     /*padding-right: 20px !important;*/
+ }
+.col {
+   padding-left: 10px !important;
  }
 
  .card-panel {
      margin-bottom: 0px !important;
      margin-top: 0px !important;
+     width: 100% !important;
      /*padding-left: 10px !important;
      margin-right: 0px !important;*/
      padding-left: 40px;
@@ -516,6 +541,10 @@ body {
     padding-top: 30px;
   }
 
+  .pad-t-35px {
+    padding-top: 35px;
+  }
+
   .pad-t-4 {
     padding-top: 4em;
   }
@@ -647,4 +676,15 @@ body {
 
  .comment-bubble:hover {
    background-position: 0 -33px;
+ }
+
+ .tooltip {
+ 	display:none;
+ 	position:absolute;
+ 	border:1px solid #333;
+ 	background-color:#161616;
+ 	border-radius:5px;
+ 	padding:10px;
+ 	color:#fff;
+ 	font-size:12px Arial;
  }
