@@ -49,7 +49,7 @@ body {
 .container {
   height: 100vh;
   width: 100%;
-  padding-left: 220px;
+  padding-left: 230px;
 }
 
 @media only screen and (max-width : 992px) {
@@ -128,10 +128,9 @@ body {
      /*width: 100% !important;*/
      /*padding-right: 20px !important;*/
  }
-
- /*.col {
+.col {
    padding-left: 10px !important;
- }*/
+ }
 
  .card-panel {
      margin-bottom: 0px !important;
@@ -540,6 +539,10 @@ body {
 
   .pad-t-30px {
     padding-top: 30px;
+  }
+
+  .pad-t-35px {
+    padding-top: 35px;
   }
 
   .pad-t-4 {
