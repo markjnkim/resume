@@ -32,10 +32,15 @@
 
 body {
    padding: 0px !important;
-   margin: 0px !important;
+   /*margin: 0px !important;*/
    background-color: black;
    overflow-x: hidden;
    padding-left: 300px;
+   /*margin-right: -40px;*/
+   width: 110%;
+   /*margin-left: -20px*/
+   /*width: 100%;*/
+
  }
 
  .no-padding-right {
@@ -49,16 +54,24 @@ body {
 .container {
   height: 100vh;
   width: 100%;
-  padding-left: 230px;
+
+  margin-right: 0px;
+  padding-left: 150px;
+  /*padding-right: 20px;*/
+
+  /*margin-right: -50px;*/
 }
 
 @media only screen and (max-width : 992px) {
  body {
-    padding-left: 100px;
+    /*padding-left: 100px;
+    margin-right: -100px;*/
 
   }
   .container {
     padding-left: 0px;
+    /*margin-right: -100px;*/
+
   }
 }
 
@@ -80,36 +93,36 @@ body {
    color: #465C8B;
  }
 
- .parallax{
+ /*.parallax{
    position: absolute;
    top: 0;
    left: 0;
    right: 0;
    bottom:0;
    z-index: 0;
- }
+ }*/
 
- .parallax img {
+ /*.parallax img {
    display: inherit !important;
  }
  .parallax-container {
    position: relative;
    overflow: hidden;
    height: 500px;
- }
+ }*/
 
  /* positioning */
- .block {
+ /*.block {
    display: block;
- }
+ }*/
 
  .center {
    margin: 0 auto;
  }
 
- .inline {
+ /*.inline {
    display: inline;
- }
+ }*/
 
  .section {
    margin-top: 0px !important;
@@ -122,9 +135,9 @@ body {
      margin-top: 0px !important;
      margin-bottom: 0px !important;
      margin-left: -10px !important;
-     margin-right: -10px !important;
+     margin-right: 0px !important;
      padding-left: 0px !important;
-     padding-right: 0px !important;
+     padding-right: 10px !important;
      /*width: 100% !important;*/
      /*padding-right: 20px !important;*/
  }
@@ -299,13 +312,13 @@ body {
      color: #fefefe;
    }
 
- .clearfix:after {
+ /*.clearfix:after {
     content: " "; /* Older browser do not support empty content */
-    visibility: hidden;
-    display: block;
-    height: 0;
-    clear: both;
- }
+    /*visibility: hidden;*/
+    /*display: block;*/
+    /*height: 0;*/
+    /*clear: both;*/
+ /*}*/*/
 
  .col-3 {
    width: 33.33%;
@@ -313,7 +326,8 @@ body {
 
  .divider {
    margin-left: -45px;
-   margin-right: -25px;
+   margin-right: -85px;
+   /*width: 150%;*/
  }
 
 .font-100{
@@ -580,7 +594,9 @@ body {
  .pad-r-4 {
    padding-right: 4em;
  }
-
+ .pad-r-6 {
+   padding-right: 6em;
+ }
 
  .pipe-separate {
    padding-left: 1em;
