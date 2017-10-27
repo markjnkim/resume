@@ -9152,3 +9152,10 @@ Processing by ProfileController#index as HTML
 Completed 200 OK in 406ms (Views: 402.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-27 14:54:51 -0700
+Processing by ProfileController#index as HTML
+  Rendering profile/index.html.slim within layouts/application
+  Rendered profile/index.html.slim within layouts/application (1616.7ms)
+Completed 200 OK in 2276ms (Views: 2270.3ms)
+
+
