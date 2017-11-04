@@ -56,7 +56,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow: auto;
+  overflow: hidden;
 
   /*margin-right: -150px;*/
   padding-left: 280px;
@@ -94,6 +94,25 @@ body {
    color: #465C8B;
  }
 
+ img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+ }
+
+ img:hover {
+    -webkit-filter: brightness(60%);
+    filter: brightness(70%);
+    filter:invert(40%) ;
+    /*filter:opacity(50%);*/
+ }
+
+ .disabled {
+   pointer-events: none;
+
+ }
  /*.parallax{
    position: absolute;
    top: 0;
