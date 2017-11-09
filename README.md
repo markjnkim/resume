@@ -5,7 +5,15 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.3.4
+
+* Rails version 5.1.4
+
+* Bundler version 1.15.2
+
+* Postgresql version 0.21.0
+
+* Puma version 3.10.0
 
 * System dependencies
 
